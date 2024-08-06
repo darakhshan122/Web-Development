@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Left Sidebar Navigation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-item" onclick="showContent('content1')">
+          
+          <img src="12-Months-New-image-650x366.jpg" alt="" />
+        </div>
+        <div class="navbar-item" onclick="showContent('content2')">
+          
+          <img src="week-logo-103-5875.png" alt="" />
+        </div>
+        <div class="navbar-item" onclick="showContent('content3')">
+        
+          <img src="DAYS OF WEEK.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- start of content 1 -->
+      <div class="content hidden" id="content1">
+        
+        <h2>months in year</h2>
+        <div class="sub-container">
+
+          <div class="left-sub-container">
+            <div>january</div>
+            <div>feburary</div>
+            <div>march</div>
+            <div>april</div>
+            <div>may</div>
+            <div>june</div>
+          </div>
+
+          <div class="mid-container" style="width:30%">
+            <h1 class="multicolortext" style="height:fit-content">lets learn about the months </h1>
+            <h1 class="multicolortext">thare are 12 months in a year</h1>
+            <img src="mentor-gif.gif" style="height:70%" width="90%" alt="">
+          </div>
+
+          <div class="right-sub-container">
+            <div>july</div>
+            <div>agust</div>
+            <div>september</div>
+            <div>october</div>
+            <div>november</div>
+            <div>december</div>
+          </div>
+
+        </div>
+
+        
+      </div>
+      <!-- end of content 1 -->
+
+      <!-- content 2 -->
+      <div class="content hidden" id="content2">
+        
+        <h2>weeks within a month</h2>
+        <div class="sub-container2">
+
+          <div class="text-img">
+            <div class="text">
+              <h1 class=" multicolortext">Lets learn about weeks</h1><h1 class=" multicolortext"> in a month</h1>
+              <h2 class="multicolortext">There are 4 weeks in <br> a amonth </h2>
+              <h2 class=" multicolortext">That is</h2>
+            </div>
+        
+  
+            <div class="img-content"> 
+            <img src="mentor-gif.gif" alt="">
+            </div>
+    
+           </div>
+
+          <div class="week-content ">
+            <div class="innerweek">week1</div>
+            <div class="innerweek">week2</div>
+            <div class="innerweek">week3</div>
+            <div class="innerweek">week4 </div>
+
+          </div>
+         
+
+           </div>
+         
+      </div>
+       <!-- end of content 2 -->
+
+
+      
+      
+      <!-- start of content 3 -->
+      <div class="content hidden" id="content3">
+        <h2>Days of the week</h2>
+        <div class="content3">
+        
+
+          <div class="text-content" style="height: max-content;">
+            <h2 class="multicolortext"> let learns weeks day</h2>
+            <h2 class="multicolortext">There are 7 days in a week</h2>
+          </div>
+  
+          <div class="img-content" style="align-self: flex-end; height: 70%;">
+            <img src="mentor-gif.gif" height="80%" width="90%" alt="">
+          </div>
+
+       
+        <div class="sub-container3">
+          <div>monday</div>
+          <div>tuesday</div>
+          <div>wednesday</div>
+          <div>thursday</div>
+          <div>friday</div>
+          <div>saturday</div>
+          <div>sunday</div>
+        </div>
+
+        
+
+        </div>
+
+
+      </div>
+     <!-- end of content 3 -->
+
+
+    </div>
+
+
+    
+   <div class="refresh" style="float: right; padding-right:5rem">
+    <button type="button" class="btn btn-info" style="text-align: center; "  onclick="window.location.reload();"><i class="fa-solid fa-rotate-right"></i></button>
+
+   </div> 
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

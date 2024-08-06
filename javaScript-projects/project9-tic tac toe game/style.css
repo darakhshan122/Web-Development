@@ -1,0 +1,123 @@
+
+/* General styles for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: purple;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(210, 206, 206);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Game container styles */
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (top) */
+    gap: 2rem;
+    /* border: 2px solid green; */
+    margin-top: 5vh;
+    padding: 1rem;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 4px 4px 5px rgb(209, 199, 199);
+}
+
+/* Game board styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    max-width: 300px;
+    /* border: 2px solid green; */
+}
+
+.box {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    cursor: pointer;
+    border: 1px solid rgb(126, 122, 122);
+    box-sizing: border-box;
+    aspect-ratio: 1;
+}
+
+.box:hover {
+    background-color: rgb(246, 227, 246);
+    box-shadow: 2px 2px 1px purple;
+}
+
+
+/* Game info styles */
+.gameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    /* border: 2px solid green; */
+    width: 40%;
+    max-width: 300px;
+}
+
+
+.imgbox img {
+    max-width: 50%;
+    height: auto;
+    /* display: block; */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Utility classes */
+.br-0 { border-right: 0; }
+.bl-0 { border-left: 0; }
+.bb-0 { border-bottom: 0; }
+.bt-0 { border-top: 0; }
+
+/* Responsive styles for h1 */
+.gameInfo h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem); /* Minimum 1.5rem, Preferred 4vw, Maximum 2rem */
+    text-align: center; /* Center align text */
+    margin: 0.5rem 0; /* Margin to ensure spacing */
+}
+
+/* Responsive styles for the reset button */
+#reset {
+    padding: 0.5rem 1rem;
+    font-size: clamp(0.5rem, 2vw, 0.8rem); /* Minimum 0.5rem, Preferred 2vw, Maximum 0.8rem */
+    cursor: pointer;
+    background-color: purple; 
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+#reset:hover {
+    background-color:rgb(178, 91, 178); 
+}

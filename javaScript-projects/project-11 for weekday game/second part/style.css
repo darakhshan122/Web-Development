@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  
+  .weekday, .random-pic {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: contain;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  
+  #next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
