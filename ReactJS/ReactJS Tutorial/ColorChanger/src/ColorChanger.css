@@ -1,0 +1,59 @@
+.buttonContainer{
+    /* border:2px solid red; */
+    height:10vh;
+    width:55vw;
+    margin:2vh auto;
+    display: flex;
+    justify-content: center;
+    gap:1vw;
+  
+    /* margin: 10vh; */
+}
+.content{
+  
+    
+    width: 50%;
+   font-weight: bold;
+    
+    margin:auto;
+    box-shadow: 2px 2px 4px black;
+    border-radius:1vh ;
+    
+    background-color:white;
+    text-align: center;
+}
+.span1{
+    /* border: 2px solid red; */
+    font-size: calc(2vw) ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background: linear-gradient(90deg, #60ad59, #871542, #085f67, #e4ef07e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Ensure the span size fits the content */
+    padding: 0.3vw; 
+}
+button {
+    width: 15%;
+    height: 50%;
+    font-size: calc(1.2vw); 
+   
+    background: linear-gradient(45deg, #a8adb6, #08070adc); /* Gray gradient */
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 2vh;
+}
+.bodycolor{height: 99.5vh;width: 99.5vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background: linear-gradient(45deg, #cc9f9f, #5c0606); /* Gray gradient */}
+.orange{
+    background: linear-gradient(45deg, #fce6bd, #6c4c07); /* Gray gradient */}  
+.blue{
+    background: linear-gradient(45deg, #55677c, #1a0165); /* Gray gradient */}      
+.green{
+    background: linear-gradient(45deg, #86a180, #044d1f); /* Gray gradient */}    

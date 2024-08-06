@@ -1,0 +1,280 @@
+/* CSS FOR SLIDE-9 AND SLIDE-10 */
+
+.backgroundContainer {
+  background-image: url("../assets/image/Bathroom-background.svg");
+
+  background-position: center;
+  height: 96vh;
+}
+
+.stepContainer1 {
+  height: 10%;
+  margin: 0.5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menubutton {
+  color: aliceblue;
+  padding: 0.3rem;
+  border-radius: 47%;
+  border: 2px solid rgb(13, 13, 13);
+
+  background-color: rgb(39, 85, 126);
+  box-shadow: 5px 5px 5px rgb(107, 143, 185);
+  margin-left: 1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.menubutton i {
+  font-size: 1rem;
+}
+
+.stepName {
+  text-align: center;
+  border: 2px solid rgb(13, 13, 13);
+  border-radius: 40px;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(39, 85, 126);
+  color: aliceblue;
+  font-size: 3vh;
+  font-weight: bolder;
+  align-self: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgb(107, 143, 185);
+}
+
+.mainContainer {
+  height: 85%;
+  border: 5px solid rgb(12, 53, 101);
+  margin: 1vh;
+  background-color: rgb(81, 136, 186);
+}
+
+.imgTextContainer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 80%;
+}
+
+.imgContaniner {
+  width: 38%;
+  height: 94.8%;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.iconContainer1 {
+  height: 7%;
+
+  border: 2px solid rgb(13, 13, 13);
+
+  background-color: rgb(39, 85, 126);
+  box-shadow: 5px 5px 5px rgb(107, 143, 185);
+  color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  margin-right: 2rem;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.iconContainer1 i {
+  font-size: 2rem;
+}
+
+.iconContainer2 {
+  height: 7%;
+
+  color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 60%;
+  border: 2px solid rgb(13, 13, 13);
+
+  background-color: rgb(39, 85, 126);
+  box-shadow: 5px 5px 5px rgb(107, 143, 185);
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.iconContainer2 i {
+  font-size: 2rem;
+}
+
+.iconContainer1:hover,
+.iconContainer2:hover,
+.menubutton:hover {
+  background-color: rgb(4, 48, 80);
+  transform: scale(1.1);
+}
+
+.descriptionContainer {
+  height: 70%;
+
+  text-align: center;
+  margin-right: 1rem;
+  width: 25%;
+  text-align: center;
+}
+.text {
+  color: rgb(3, 78, 139);
+  font-size: 2em;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.description-text {
+  margin-top: 2rem;
+  height: 60%;
+  border: 0.2em solid rgb(3, 78, 139);
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px rgb(25, 84, 138);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.description-text p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(3, 78, 139);
+}
+.stepContainer {
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.92);
+  height: 15%;
+  margin: 1.5% 12%;
+  margin-left: 16%;
+  border: 0.2em solid rgb(3, 78, 139);
+  /* border-radius: 5%; */
+  box-shadow: 2px 2px 2px rgb(25, 84, 138);
+  color: rgb(3, 78, 139);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.step-cover {
+  /* border: 2px solid purple; */
+  height: 60%;
+  width: 90%;
+  position: relative;
+  /* text-align: center; */
+  margin-left: 2rem;
+  margin-top: 1%;
+}
+.line {
+  position: absolute;
+  top: 60%;
+
+  width: 100%;
+  height: 3px;
+  background-color: rgb(25, 84, 138); /* Default color of the horizontal line */
+  z-index: 1;
+}
+
+.step {
+  position: absolute;
+  top: 40%;
+
+  width: 0.6%;
+  height: 28px;
+
+  background-color: rgb(25, 84, 138); /* Default color for incomplete steps */
+  border-radius: 5px;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+.steptext {
+  position: absolute;
+}
+
+.step-0 {
+  left: calc(12% * 0);
+}
+.step-1 {
+  left: calc(13.02% * 1);
+}
+.step-2 {
+  left: calc(12% * 2);
+}
+.step-3 {
+  left: calc(12% * 3);
+}
+.step-4 {
+  left: calc(12% * 4);
+}
+.step-5 {
+  left: calc(12% * 5);
+}
+.step-6 {
+  left: calc(12% * 6);
+}
+.step-7 {
+  left: calc(12% * 7);
+}
+.step-8 {
+  left: calc(12.48% * 8);
+}
+.text1 {
+  left: calc(11.5% * 1);
+}
+.text2 {
+  left: calc(11% * 2);
+}
+.text3 {
+  left: calc(11.5% * 3);
+}
+.text4 {
+  left: calc(11.5% * 4);
+}
+.text5 {
+  left: calc(11.6% * 5);
+}
+.text6 {
+  left: calc(11.6% * 6);
+}
+.text7 {
+  left: calc(11.7% * 7);
+}
+
+.wrapContainer {
+  border: 5px solid rgb(8, 83, 133);
+  height: 90%;
+  margin: 1vh;
+  background-color: rgba(61, 140, 174, 0.5);
+}
+
+/* CSS ONLY  FOR SLIDE-9  */
+.imgContaniner .img-slide9 {
+  background-image: url("../assets/image/scrubing-body.svg");
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  border: 0.2em solid rgb(3, 78, 139);
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px rgb(25, 84, 138);
+}
+
+/* CSS ONLY FOR SLIDE-10 */
+.imgContaniner .img-slide10 {
+  background-image: url("../assets/image/rinseBody.svg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border: 0.2em solid rgb(3, 78, 139);
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px rgb(25, 84, 138);
+}
