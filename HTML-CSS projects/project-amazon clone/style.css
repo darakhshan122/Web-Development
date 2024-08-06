@@ -1,0 +1,165 @@
+*{margin:0;
+font-family: arial;
+border:border-box;}
+
+.navbar{background-color:#111;
+         height:60px;
+        color:white;
+    display:flex;/* all div comes in line horizintally*/
+     align-items:center;/*all div comes to center across vertival i.e cross axix*/
+    justify-content: space-evenly;}
+
+/* styling for box 1 */
+
+.nav-logo{height:50px;
+width:100px;}
+.logo{background-image:url(amazon_logo.png);
+height:100%;
+width:100%;background-size: cover;}
+.border:hover{border:0.5px solid white;}
+
+/* styling for box 2 */
+
+.nav-address{height:50px;}
+.add-frst{color:#cccccc;
+font-size: 0.85rem; margin-left: 15px;
+}
+.add-sec{font-size: 1rem; margin-left:3px;}
+.nav-icon{ display:flex; align-items: center;}
+
+/* box3 */
+
+.nav-search{ display:flex; background-color: bisque;height:40px;width:620px;
+border-radius: 4px; margin-left:5px; justify-content: space-evenly;/* here only right side will corve bcz at left side there is drop down 
+menu to curve that u must apply border radius at select tag */}
+.search-select{background-color: #f3f3f3;border-top-left-radius: 4px;border-bottom-left-radius: 4px;
+text-align:center;width:50px;  border:none;}
+.search-input{width:100%;/*it will use all remaing area after all div under nav-search*/
+font-size: 1rem; border:none;}
+.search-icon{width:45px; display:flex;
+justify-content:center;/*place icon to center ac to horizntl axis*/
+align-items: center;/* place icon cntr ac to vertical */ font-size: 1.2rem;
+background-color: rgb(201, 153, 22);
+border-top-right-radius: 4px;border-bottom-right-radius: 4px;color:black;}
+.nav-search:hover{border:2px solid orange;}
+
+
+/* box 4 */
+
+span{font-size: 0.7rem;}
+.nav-second{font-size:0.85rem ; font-weight: 800;}
+
+
+/*box5 */
+
+.nav-cart i{font-size: 30px;}
+.nav-cart {font-size:0.85rem; font-weight: 700;}
+
+
+
+
+
+/* panel */
+
+
+.panel{height:40px; background-color: #222f3d; display:flex;color:#cccccc;
+justify-content:space-evenly; align-items:center;}
+.panel-ops p{display:inline; margin-left:10px;}
+.panel-ops{width:70%; font-size: 0.85rem;}
+.panel-deals{font-size: 0.9rem; font-weight: 700;}
+
+/*closing of header*/
+
+
+
+/* hero-sec */
+
+.hero-sec{background-image: url(hero_image.jpg);;
+height:400px ; background-size: cover; display:flex;
+justify-content: center;align-items: flex-end;
+position:relative; animation-name: image; animation-duration:0.6s; animation-timing-function: ease-in-out;}
+@keyframes image{
+    0%{left:-100%;}
+    100%{ left:0%;top:0%;}
+}
+
+
+
+.hero-message{background-color: white;height: 40px;
+display:flex; justify-content: center;align-items: center; color:#111;width:80%;
+margin-bottom: 25px;}
+.hero-message a{color:rgb(16, 87, 23);text-decoration: none;font-size: 0.85rem;}
+.hero-message a:hover{color:rgb(5, 66, 69);font-weight:700;}
+
+
+/* shop-content */
+
+.shop-section{ display:flex; justify-content: space-evenly;
+    flex-wrap: wrap; background-color:#e2e7e6;}
+.box{ background-color:  white; margin-top:15px; margin-bottom: 10px;
+    width:23%; height:400px; padding:20px 0 15px;transition: all 1s ease-in-out ;}
+.box-img{height:300px; background-size:cover;margin-top:1rem;margin-bottom:1rem;
+transition: all 1s ease-in-out;}
+.shop-content{margin-left: 1rem; margin-right: 1rem;}
+.shop-content p{color:rgb(16, 87, 23);}
+.box:hover{height: 410px; opacity: 0.7;.box-img{height:320px ; opacity:  ;};cursor: pointer;border-radius:1rem ;}
+
+
+.outer{ width:97%;height:380px; background-color:white;
+    padding: rem;margin-bottom: 15px; margin-top: 10px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ .outer h3{padding-top: 30px; padding-left: 5px;}
+.movie-section
+{display:flex; 
+ background-color:white; height:320px ; width:99%;
+  align-items:center;}
+.mov-sec{width:18%;height:80%;
+    background-size: cover;margin:0rem 1.5rem 1.5rem 1.5rem;}
+.mov-sec:hover{width:18.5%; height:85%; box-shadow: #798492;}
+
+
+/* sign in section*/
+
+.signin-section{height:200px; text-align: center;}
+.signin-content{text-align: center; margin-top: 40px; padding-top: 60px; margin-bottom: 0px;
+     height: 50%;
+    border-radius:2px ; border:1px solid rgb(236, 227, 227);}
+    .signin-content p{ padding: 5px; font-size:0.8rem ; font-family:sans-serif;}
+    .signin-content button{width: 18%; height: 30%; background-color:#f1b636 ;
+        border-radius:3px ; 
+        font-weight:600;border: none;
+        text-shadow: 0 1px 0 #ffe093;}
+.signin-content span:hover{color:rgb(220, 52, 52);cursor: pointer;}
+.signin-content button:hover{cursor: grab;border:1px solid rgb(20, 19, 19);font-weight: 650;}
+
+/* footer4 section*/
+footer{margin-top: 5px; background-color: #798492;}
+
+.foot-panel1{background-color: #37475a;
+ color:#f3f3f3; height:50px; font-size:0.58rem;
+display:flex; justify-content: center; align-items:center;}
+
+.foot-panel2,.foot-panel4{display:flex; justify-content: space-evenly;
+background-color:#222f3d;color:#e2e7e6;font-size: 1.1rem;height:15rem; font-weight: 400;}
+.list{width:20%; margin-top:2rem;}
+.list li{font-size: 0.8rem;margin-bottom:0.2rem;margin-top: 0.6rem; list-style-type: none;}
+
+
+.foot-panel3{display:flex;height:6rem;background-color:#222f3d;margin-top: 0.05rem;
+justify-content:center;align-items: center;}
+.panel3{width:30%;height:50%;}
+.panel3 img{
+    height:100%;
+    width:30%;background-size: cover;text-align: right;}
+.panel3-content{display:flex; justify-content: center;align-items: center;
+    font-size: 1rem;color: #f3f3f3;font-size:rem; margin:10 px;}
+.panel3-content .content{ height:100%;width:100%;
+     border: 0.5px solid white;border-radius:5px; text-align: center;  
+margin: 3px;
+display:flex; justify-content: center; align-items: center;}
+.content p{display: inline;margin-left: 3px;}
+.panel3{text-align: center;}
+
+.list li:hover{text-decoration: underline;cursor:grabbing;}
+
+.panel4{background-color:  #131A22;}
